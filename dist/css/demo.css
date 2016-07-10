@@ -1,0 +1,48 @@
+/*导航条*/
+*{
+  font-family: "微软雅黑";
+}
+.navbar-wrapper{
+  margin-top: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+}
+.carousel{
+  height: 500px;
+}
+.carousel-btn {
+  margin-bottom: 20px;
+}
+.carousel-inner>.item>img{
+  max-width: none;
+}
+.discription{
+  margin: 50px 0;
+  text-align: center;
+}
+.disc{
+  margin-bottom: 20px;
+}
+.detail-h2{
+  font-size: 30px;
+  font-weight: 400;
+}
+.detail-p{
+  font-size: 14px;
+}
+.footer{
+  padding: 40px 0;
+}
+@media (max-width: 768px){
+  .detail-h2{
+    font-size: 25px;
+  }
+  .detail img{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+}

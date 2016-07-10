@@ -1,0 +1,20 @@
+*{
+	font-family: "微软雅黑";
+}
+.navbar-wrapper{
+  margin-top: 20px;
+  z-index: 20;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+}
+.discription-magin{
+  margin: 30px;
+}
+.item img{
+	width: 100%
+}
+.textColor{
+  color:red;
+}
